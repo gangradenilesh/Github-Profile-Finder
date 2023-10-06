@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    min-height: 100vh;
+}
+
+img,
+video,
+iframe {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+.section {
+    scroll-margin-top: 5rem;
+}
+
+
+:root {
+    /* colors */
+    --light-shadow-color: #d1d5db;
+    --blue-50: #eff6ff;
+    --blue-100: #dbeafe;
+    --blue-200: #bfdbfe;
+    --blue-300: #93c5fd;
+    --blue-400: #60a5fa;
+    --blue-500: #3b82f6;
+    --blue-600: #2563eb;
+    --blue-700: #1d4ed8;
+    --blue-800: #1e40af;
+    --blue-900: #1e3a8a;
+
+    --gray-txt: #4b5563;
+
+    /* box shadow */
+    --bs-gray: 0px 3px 18px -5px #d1d5db;
+    --bs-gray-dark: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+    /* font-sizes */
+    --fs-xxl: 3rem;
+    --fs-xl: 2rem;
+    --fs-lg: 1.5rem;
+    --fs-md: 1.125rem;
+    --fs-sm: 1rem;
+    --fs-xs: 0.5rem;
+
+    /* font-family */
+    --ff-sans-serif: "Poppins", sans-serif;
+
+    /* font weights */
+    --fw-normal: 400;
+    --fw-semibold: 500;
+    --fw-bold: 600;
+    --fw-bolder: 700;
+
+    /* line heights */
+    --lh-xxl: 4rem;
+    --lh-xl: 2.5rem;
+    --lh-lg: 2rem;
+    --lh-md: 1.5rem;
+    --lh-sm: 1rem;
+
+    /* sizing */
+    --sz-xxl: 4rem;
+    --sz-xl: 2.5rem;
+    --sz-lg: 2rem;
+    --sz-md: 1.5rem;
+    --sz-sm: 1rem;
+    --sz-xs: 0.5rem;
+}
+
+body {
+    font-family: var(--ff-sans-serif);
+}
